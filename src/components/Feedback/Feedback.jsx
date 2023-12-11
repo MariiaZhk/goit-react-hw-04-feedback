@@ -46,7 +46,7 @@ export const Feedback = () => {
 
       <Section title="Statistics">
         {countTotalFeedback() === 0 ? (
-          <Notification message="There is no feedback" />
+          <Notification message="There is no any feedback yet" />
         ) : (
           <Statistics
             goodFeedbacks={good}
